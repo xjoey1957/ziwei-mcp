@@ -51,8 +51,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/ziwei-mcp.git"
+    "url": "git+https://github.com/xjoey1957/ziwei-mcp.git"
   },
   "homepage": "https://zw.tokenxiu.com/?from=npm",
-  "mcpName": "io.github.OWNER/ziwei-mcp"
+  "mcpName": "io.github.xjoey1957/ziwei-mcp"
 }

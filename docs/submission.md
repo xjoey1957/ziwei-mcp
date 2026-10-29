@@ -53,9 +53,9 @@ Glama 会自动抓取公开 GitHub 仓库；仓库根目录的 `glama.json` 用�
 步骤：
 
 1. 把 `glama.json` 里的 `OWNER` 改成你的 GitHub 用户名，推送。
-2. 打开 https://glama.ai/mcp/servers ，点 "Add Server"，填仓库地址 `https://github.com/OWNER/ziwei-mcp`。
+2. 打开 https://glama.ai/mcp/servers ，点 "Add Server"，填仓库地址 `https://github.com/xjoey1957/ziwei-mcp`。
 3. 收录后用 GitHub 登录 Glama 认领（claim），简介可直接用上面的英文简介。
-4. 等 Glama 构建通过后，徽章地址为：`https://glama.ai/mcp/servers/OWNER/ziwei-mcp/badges/score.svg`。
+4. 等 Glama 构建通过后，徽章地址为：`https://glama.ai/mcp/servers/xjoey1957/ziwei-mcp/badges/score.svg`。
 
 ---
 
@@ -66,13 +66,13 @@ Glama 会自动抓取公开 GitHub 仓库；仓库根目录的 `glama.json` 用�
 **条目（一行）**：
 
 ```markdown
-- [OWNER/ziwei-mcp](https://github.com/OWNER/ziwei-mcp) [![OWNER/ziwei-mcp MCP server](https://glama.ai/mcp/servers/OWNER/ziwei-mcp/badges/score.svg)](https://glama.ai/mcp/servers/OWNER/ziwei-mcp) 📇 🏠 🍎 🪟 🐧 - Zi Wei Dou Shu (Purple Star Astrology) charts as twelve-palace JSON with lunar input, true solar time and China DST handling, a Life Palace summary, same-chart population estimates, and a bundled Claude skill.
+- [xjoey1957/ziwei-mcp](https://github.com/xjoey1957/ziwei-mcp) [![xjoey1957/ziwei-mcp MCP server](https://glama.ai/mcp/servers/xjoey1957/ziwei-mcp/badges/score.svg)](https://glama.ai/mcp/servers/xjoey1957/ziwei-mcp) 📇 🏠 🍎 🪟 🐧 - Zi Wei Dou Shu (Purple Star Astrology) charts as twelve-palace JSON with lunar input, true solar time and China DST handling, a Life Palace summary, same-chart population estimates, and a bundled Claude skill.
 ```
 
 如果 Glama 还没收录，先去掉徽章部分：
 
 ```markdown
-- [OWNER/ziwei-mcp](https://github.com/OWNER/ziwei-mcp) 📇 🏠 🍎 🪟 🐧 - Zi Wei Dou Shu (Purple Star Astrology) charts as twelve-palace JSON with lunar input, true solar time and China DST handling, a Life Palace summary, same-chart population estimates, and a bundled Claude skill.
+- [xjoey1957/ziwei-mcp](https://github.com/xjoey1957/ziwei-mcp) 📇 🏠 🍎 🪟 🐧 - Zi Wei Dou Shu (Purple Star Astrology) charts as twelve-palace JSON with lunar input, true solar time and China DST handling, a Life Palace summary, same-chart population estimates, and a bundled Claude skill.
 ```
 
 **分支名**：`add-ziwei-mcp`
@@ -84,7 +84,7 @@ Glama 会自动抓取公开 GitHub 仓库；仓库根目录的 `glama.json` 用�
 **PR 描述**：
 
 ```markdown
-Adds [ziwei-mcp](https://github.com/OWNER/ziwei-mcp) to Spirituality & Esoterica.
+Adds [ziwei-mcp](https://github.com/xjoey1957/ziwei-mcp) to Spirituality & Esoterica.
 
 - Local stdio server (TypeScript), installable with `npx -y ziwei-doushu-mcp`
 - Tools: `get_chart` (twelve-palace chart JSON), `get_reading_summary`, `get_twins`
@@ -101,7 +101,7 @@ Adds [ziwei-mcp](https://github.com/OWNER/ziwei-mcp) to Spirituality & Esoterica
 
 提交页：https://mcp.so/submit ，选 "MCP Server" 标签。
 
-- **Repository URL**：`https://github.com/OWNER/ziwei-mcp`
+- **Repository URL**：`https://github.com/xjoey1957/ziwei-mcp`
 - **Name**：`ziwei-doushu-mcp`
 
 页面目前只要求这两项，其余信息从仓库 README 读取。页面另有 39 美元的付费快速发布选项，免费提交需要等审核；建议先走免费通道。若之后能编辑详情，使用上面的中文简介、标签和安装配置。
@@ -110,6 +110,6 @@ Adds [ziwei-mcp](https://github.com/OWNER/ziwei-mcp) to Spirituality & Esoterica
 
 ## 4. 其他可选渠道（同一套文案可复用）
 
-- 官方 MCP Registry（registry.modelcontextprotocol.io）：`package.json` 已写 `"mcpName": "io.github.OWNER/ziwei-mcp"`，发布 npm 后用官方 `mcp-publisher` CLI 登录 GitHub 并提交 `server.json`。
+- 官方 MCP Registry（registry.modelcontextprotocol.io）：`package.json` 已写 `"mcpName": "io.github.xjoey1957/ziwei-mcp"`，发布 npm 后用官方 `mcp-publisher` CLI 登录 GitHub 并提交 `server.json`。
 - mcpservers.org、smithery.ai、PulseMCP：都接受 GitHub 仓库地址提交。
-- Claude Code 插件：仓库已带 `.claude-plugin/marketplace.json`，用户可以 `claude plugin marketplace add OWNER/ziwei-mcp` 直接安装。
+- Claude Code 插件：仓库已带 `.claude-plugin/marketplace.json`，用户可以 `claude plugin marketplace add xjoey1957/ziwei-mcp` 直接安装。

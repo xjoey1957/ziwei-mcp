@@ -54,7 +54,7 @@ claude mcp add ziwei -- npx -y ziwei-doushu-mcp
 或者作为插件安装，同时装上 MCP 和解读 skill：
 
 ```bash
-claude plugin marketplace add OWNER/ziwei-mcp
+claude plugin marketplace add xjoey1957/ziwei-mcp
 ```
 
 ```bash
@@ -173,7 +173,7 @@ claude mcp add ziwei -- npx -y ziwei-doushu-mcp
 As a Claude Code plugin (MCP server plus the reading skill):
 
 ```bash
-claude plugin marketplace add OWNER/ziwei-mcp
+claude plugin marketplace add xjoey1957/ziwei-mcp
 ```
 
 ```bash
