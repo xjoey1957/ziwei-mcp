@@ -1,0 +1,58 @@
+{
+  "name": "ziwei-doushu-mcp",
+  "version": "0.1.0",
+  "description": "紫微斗数排盘 MCP server：十二宫结构化命盘、命宫摘要、同盘人数估算（传统文化参考）",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "ziwei-doushu-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "skills",
+    "LICENSE",
+    "README.md",
+    ".claude-plugin",
+    ".mcp.json",
+    "src/engine/LICENSE",
+    "src/engine/NOTICE.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "smoke": "npm run build && node scripts/smoke.mjs",
+    "inspector": "npm run build && npx @modelcontextprotocol/inspector node dist/index.js",
+    "prepare": "tsup"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "ziwei",
+    "ziwei-doushu",
+    "紫微斗数",
+    "chinese-astrology",
+    "claude"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "iztro": "^2.5.8",
+    "lunar-javascript": "^1.7.3",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "tsup": "^8.5.0",
+    "typescript": "^5",
+    "vitest": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/ziwei-mcp.git"
+  },
+  "homepage": "https://zw.tokenxiu.com/?from=npm",
+  "mcpName": "io.github.OWNER/ziwei-mcp"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ziwei": {
+      "command": "npx",
+      "args": ["-y", "ziwei-doushu-mcp"]
+    }
+  }
+}

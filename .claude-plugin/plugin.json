@@ -1,0 +1,16 @@
+{
+  "name": "ziwei",
+  "version": "0.1.0",
+  "description": "紫微斗数排盘 MCP + 解读 skill：十二宫结构化命盘、命宫摘要、同盘人数估算（传统文化参考）",
+  "homepage": "https://zw.tokenxiu.com/?from=gh",
+  "license": "MIT",
+  "keywords": [
+    "ziwei",
+    "紫微斗数",
+    "mcp"
+  ],
+  "author": {
+    "name": "zw.tokenxiu.com",
+    "url": "https://zw.tokenxiu.com/?from=gh"
+  }
+}

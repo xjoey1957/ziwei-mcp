@@ -1,0 +1,16 @@
+{
+  "name": "ziwei-mcp",
+  "owner": {
+    "name": "zw.tokenxiu.com"
+  },
+  "plugins": [
+    {
+      "name": "ziwei",
+      "source": "./",
+      "description": "紫微斗数排盘 MCP + 解读 skill（传统文化参考）"
+    }
+  ],
+  "metadata": {
+    "description": "紫微斗数排盘 MCP 与解读 skill（传统文化参考）"
+  }
+}
