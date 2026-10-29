@@ -2,7 +2,7 @@
   "mcpServers": {
     "ziwei": {
       "command": "npx",
-      "args": ["-y", "ziwei-doushu-mcp"]
+      "args": ["-y", "github:xjoey1957/ziwei-mcp"]
     }
   }
 }

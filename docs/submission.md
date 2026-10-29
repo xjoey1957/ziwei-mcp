@@ -29,7 +29,7 @@ Lets Claude, Cursor and other MCP clients cast Zi Wei Dou Shu charts locally. Ac
 ```json
 {
   "mcpServers": {
-    "ziwei": { "command": "npx", "args": ["-y", "ziwei-doushu-mcp"] }
+    "ziwei": { "command": "npx", "args": ["-y", "github:xjoey1957/ziwei-mcp"] }
   }
 }
 ```
@@ -86,7 +86,7 @@ Glama 会自动抓取公开 GitHub 仓库；仓库根目录的 `glama.json` 用�
 ```markdown
 Adds [ziwei-mcp](https://github.com/xjoey1957/ziwei-mcp) to Spirituality & Esoterica.
 
-- Local stdio server (TypeScript), installable with `npx -y ziwei-doushu-mcp`
+- Local stdio server (TypeScript), installable with `npx -y github:xjoey1957/ziwei-mcp`
 - Tools: `get_chart` (twelve-palace chart JSON), `get_reading_summary`, `get_twins`
 - Handles lunar dates, true solar time for Chinese cities, China DST 1986–1991 and the late-子-hour day rollover
 - MIT licensed; chart engine from Renhuai123/ziwei-doushu (MIT), built on iztro

@@ -48,7 +48,7 @@ A Model Context Protocol server that lets Claude, Cursor and other AI assistants
 **Claude Code**
 
 ```bash
-claude mcp add ziwei -- npx -y ziwei-doushu-mcp
+claude mcp add ziwei -- npx -y github:xjoey1957/ziwei-mcp
 ```
 
 或者作为插件安装，同时装上 MCP 和解读 skill：
@@ -66,7 +66,7 @@ claude plugin install ziwei@ziwei-mcp
 ```json
 {
   "mcpServers": {
-    "ziwei": { "command": "npx", "args": ["-y", "ziwei-doushu-mcp"] }
+    "ziwei": { "command": "npx", "args": ["-y", "github:xjoey1957/ziwei-mcp"] }
   }
 }
 ```
@@ -78,14 +78,14 @@ claude plugin install ziwei@ziwei-mcp
 ```json
 {
   "servers": {
-    "ziwei": { "type": "stdio", "command": "npx", "args": ["-y", "ziwei-doushu-mcp"] }
+    "ziwei": { "type": "stdio", "command": "npx", "args": ["-y", "github:xjoey1957/ziwei-mcp"] }
   }
 }
 ```
 
 **Cherry Studio、Cline、Windsurf 等**：添加 stdio 类型的 MCP 服务器，命令 `npx`，参数 `-y ziwei-doushu-mcp`。
 
-Windows 上如果客户端提示找不到 `npx`，把命令改为 `cmd`，参数改为 `/c npx -y ziwei-doushu-mcp`。
+Windows 上如果客户端提示找不到 `npx`，把命令改为 `cmd`，参数改为 `/c npx -y github:xjoey1957/ziwei-mcp`。
 
 ### Claude skill
 
@@ -167,7 +167,7 @@ Requires Node.js 18+.
 Claude Code:
 
 ```bash
-claude mcp add ziwei -- npx -y ziwei-doushu-mcp
+claude mcp add ziwei -- npx -y github:xjoey1957/ziwei-mcp
 ```
 
 As a Claude Code plugin (MCP server plus the reading skill):
@@ -185,12 +185,12 @@ Claude Desktop, Cursor (`~/.cursor/mcp.json`) and most other clients:
 ```json
 {
   "mcpServers": {
-    "ziwei": { "command": "npx", "args": ["-y", "ziwei-doushu-mcp"] }
+    "ziwei": { "command": "npx", "args": ["-y", "github:xjoey1957/ziwei-mcp"] }
   }
 }
 ```
 
-VS Code uses `.vscode/mcp.json` with a top-level `"servers"` key and `"type": "stdio"`. On Windows, if the client cannot find `npx`, use `"command": "cmd"` and `"args": ["/c", "npx", "-y", "ziwei-doushu-mcp"]`.
+VS Code uses `.vscode/mcp.json` with a top-level `"servers"` key and `"type": "stdio"`. On Windows, if the client cannot find `npx`, use `"command": "cmd"` and `"args": ["/c", "npx", "-y", "github:xjoey1957/ziwei-mcp"]`.
 
 ### Claude skill
 
